@@ -12,7 +12,7 @@ stages:
         displayName: print statement
         pool:
           vmImage: 'ubuntu-latest'
-  - steps:
+    steps:
     displayName: 'Hello World' 
       script: |
           echo "Hello World":
