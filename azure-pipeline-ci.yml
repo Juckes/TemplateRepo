@@ -6,13 +6,13 @@ pr:
       - '*'
 
 stages:
-- stage: CI_Checks
-  jobs:
-  - job:
+  - stage: CI_Checks
+    jobs:
+    - job:
     displayName: print statement
     pool:
       vmImage: 'ubuntu-latest'
     steps:
-    - script: |
+      - script: |
         echo "Hello World"
         displayName: 'Hello World'
