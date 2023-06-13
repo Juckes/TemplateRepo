@@ -1,18 +1,18 @@
-trigger: none
+# trigger: none
 
-pr:
-  branches:
-    include:
-      - '*'
+# pr:
+#   branches:
+#     include:
+#       - '*'
 
-stages:
-  - stage: CI_Checks
-    jobs:
-      - job:
-#         displayName: print statement
-        pool:
-          vmImage: 'ubuntu-latest'
-    steps:
-#       - displayName: 'Hello World'
-      - script: |
-          echo "Hello World":
+# stages:
+#   - stage: CI_Checks
+#     jobs:
+#       - job:
+# #         displayName: print statement
+#         pool:
+#           vmImage: 'ubuntu-latest'
+#     steps:
+# #       - displayName: 'Hello World'
+#       - script: |
+#           echo "Hello World":
