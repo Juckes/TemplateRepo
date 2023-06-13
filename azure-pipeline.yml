@@ -18,6 +18,6 @@ stages:
     steps:
     - script: |
       python -m pip install --upgrade pip
-      pip install yamllint
+        pip install yamllint
       yamllint -d "{extends: relaxed, rules: {line-length: {max: 200}, new-line-at-end-of-file: disable, new-lines: disable}}" .
       displayName: 'YAML Lint Checks'
