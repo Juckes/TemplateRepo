@@ -8,10 +8,10 @@ pr:
 stages:
   - stage: CI_Checks
     jobs:
-    - job:
-    displayName: print statement
-    pool:
-      vmImage: 'ubuntu-latest'
+      - job:
+      displayName: print statement
+      pool:
+        vmImage: 'ubuntu-latest'
     steps:
       - script: |
         echo "Hello World"
