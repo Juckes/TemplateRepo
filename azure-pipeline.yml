@@ -3,10 +3,12 @@
 
 name: cicd_ci
 
-# trigger:
-#   branches:
-#     include:
-#       - master
+pr: none
+
+trigger:
+  branches:
+    include:
+      - master
 
 stages:
 - stage: CI_Checks
