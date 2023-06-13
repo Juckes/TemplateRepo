@@ -10,8 +10,8 @@ stages:
     jobs:
       - job:
       displayName: print statement
-      pool:
-        vmImage: 'ubuntu-latest'
+        pool:
+          vmImage: 'ubuntu-latest'
     steps:
       - script: |
         echo "Hello World"
