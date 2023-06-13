@@ -9,7 +9,7 @@ stages:
   - stage: CI_Checks
     jobs:
       - job:
-        displayName: print statement
+#         displayName: print statement
         pool:
           vmImage: 'ubuntu-latest'
     steps:
