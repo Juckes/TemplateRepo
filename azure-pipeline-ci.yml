@@ -13,5 +13,5 @@ stages:
         pool:
           vmImage: 'ubuntu-latest'
     steps:
-      displayName: 'Hello World'
+    displayName: 'Hello World'
       script: echo "Hello World":
