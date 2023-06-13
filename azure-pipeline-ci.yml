@@ -15,4 +15,3 @@ stages:
     steps:
     displayName: 'Hello World'
       script: echo "Hello World":
-          
