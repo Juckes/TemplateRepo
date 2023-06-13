@@ -14,4 +14,4 @@ stages:
           vmImage: 'ubuntu-latest'
     steps:
     displayName: 'Hello World'
-      script: echo "Hello World"
+    script: echo "Hello World"
