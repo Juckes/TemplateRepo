@@ -1,0 +1,18 @@
+trigger: none
+
+trigger:
+  branches:
+    include:
+      - master
+
+stages:
+- stage: CI_Checks
+  jobs:
+  - job:
+    displayName: print statement
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - script: |
+        echo "Hello World"
+      displayName: 'Hello World'
