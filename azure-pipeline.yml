@@ -1,7 +1,7 @@
 # Repo: MySpace/TemplateRepo
 # File: azure-pipeline.yml
 
-# name: cicd_ci
+name: cicd_ci
 
 # trigger:
 #   branches:
